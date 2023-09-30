@@ -2,6 +2,7 @@
   "name": "theblokc-solana-dev-bootcamp",
   "packageManager": "yarn@3.6.3",
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
     "@solana/spl-token": "^0.3.8",
     "@solana/web3.js": "^1.78.5",
     "bs58": "^5.0.0",
