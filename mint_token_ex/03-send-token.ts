@@ -21,7 +21,6 @@ async function main() {
     new Web3.PublicKey(tokenAccount),
     PUBLIC_KEY,
     200000
-
   );
   
 }

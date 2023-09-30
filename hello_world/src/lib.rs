@@ -18,7 +18,7 @@ pub fn process_instruction
 )-> ProgramResult
 {
     msg!("Hello, World");
-    msg!("{}, (), {:?}" , program_id, accounts.len());
+    msg!("{}, (), {:?}" , program_id, accounts.len(), );
     Ok(())
 
 }

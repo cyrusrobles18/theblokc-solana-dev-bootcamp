@@ -77,6 +77,7 @@ Solana 101
         >> npx ts-node | tsx <FILENAME>
         >> bun <FILENAME>
         SET SOLANA
+        PATH="/home/codespace/.local/share/solana/install/active_release/bin:$PATH"
         >> npm i -g solana-key-decoder-cli
         >> npx solana-key-decoder-cli <private-key>
         >> solana config set -k <path-here>
