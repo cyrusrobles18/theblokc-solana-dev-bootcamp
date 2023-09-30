@@ -11,7 +11,7 @@ const tokenMint = new Web3.PublicKey('sKfUNja3P16Pk4ogmQjLYmk8nJugu7tgP6qNfQhH5L
 const PRIVATE_KEY = '2iG3aN1xeV6yfa1DQmH88tBszpPuRuWXqRjKeiKpN371myCLDWNDXA3gxXjNareuYt8YUxZ83hciBiLA6ZJWzXJX'
 const tokenAccount = 'DivYPfo5kJeuuoJfKcE9wPKAEQkxzauLR2fWZk6JkGt'
 async function main() {
-  
+  // To mint
   console.log('TOKEN ACCOUNT: ' + tokenAccount)
   const signer = Web3.Keypair.fromSecretKey(base58.decode(PRIVATE_KEY))
   const minTo = await token.mintTo(
@@ -21,7 +21,9 @@ async function main() {
     new Web3.PublicKey(tokenAccount),
     PUBLIC_KEY,
     200000
+
   );
+  
 }
 
 main()
